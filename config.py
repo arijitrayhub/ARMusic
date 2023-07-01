@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/golujha9936/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/arijitrayhub/ARMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Shayri_ki_mahfil")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/About_Aryan_Owner")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+j-jYJNTMrsYwMDE9")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+8EGUHX9SH_E2MTNl")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f96b19448d1a4981a010e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9175689422619c7616f1f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/f96b19448d1a4981a010e.jpg",
+    "https://graph.org/file/9175689422619c7616f1f.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            PING_IMG_URL = "https://graph.org/file/9175689422619c7616f1f.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+            START_IMG_URL = "https://graph.org/file/9175689422619c7616f1f.jpg"
