@@ -83,9 +83,9 @@ PING_IMG_URL = getenv(
     "https://graph.org/file/9175689422619c7616f1f.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/9175689422619c7616f1f.jpg"
 
-GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/9175689422619c7616f1f.jpg"
 
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
@@ -95,9 +95,9 @@ TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
-SOUNCLOUD_IMG_URL = "https://graph.org/file/f96b19448d1a4981a010e.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/9175689422619c7616f1f.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 
